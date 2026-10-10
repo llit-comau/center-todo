@@ -1,0 +1,173 @@
+/* Center To-Do Widget Styles */
+
+.center-todo-widget {
+    background-color: rgba(22, 24, 30, 0.88);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 18px 22px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+    min-width: 440px;
+    max-width: 500px;
+}
+
+/* Header */
+.center-todo-header {
+    spacing: 10px;
+    margin-bottom: 6px;
+}
+
+.center-todo-header-icon {
+    color: #3584e4;
+}
+
+.center-todo-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+}
+
+.center-todo-badge {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.center-todo-icon-btn {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 8px;
+    padding: 5px 7px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.center-todo-icon-btn:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+.center-todo-icon-btn:active {
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+/* Divider */
+.center-todo-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 8px 0 10px 0;
+}
+
+/* Tasks scroll area */
+.center-todo-scroll {
+    max-height: 320px;
+    margin-bottom: 12px;
+}
+
+.center-todo-tasks-box {
+    spacing: 6px;
+}
+
+/* Task row */
+.center-todo-row {
+    spacing: 10px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid transparent;
+}
+
+.center-todo-row:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Checkbox button */
+.center-todo-checkbox {
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.center-todo-checkbox:hover {
+    color: #3584e4;
+}
+
+.center-todo-checkbox.checked {
+    color: #33d17a;
+}
+
+/* Task Text */
+.center-todo-text {
+    font-size: 13.5px;
+    color: #f3f3f6;
+}
+
+.center-todo-text.done {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.38);
+    text-decoration: line-through;
+}
+
+/* Delete button */
+.center-todo-del-btn {
+    background-color: transparent;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.center-todo-del-btn:hover {
+    background-color: rgba(246, 97, 81, 0.2);
+    color: #f66151;
+}
+
+/* Empty State */
+.center-todo-empty {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.45);
+    padding: 22px 10px;
+    text-align: center;
+}
+
+/* Input Container */
+.center-todo-input-bar {
+    spacing: 8px;
+}
+
+.center-todo-entry {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 7px 12px;
+    color: #ffffff;
+    caret-color: #3584e4;
+    font-size: 13px;
+}
+
+.center-todo-entry:focus {
+    border-color: #3584e4;
+    box-shadow: inset 0 0 0 1px #3584e4;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.center-todo-add-btn {
+    background-color: #3584e4;
+    border-radius: 10px;
+    padding: 7px 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.center-todo-add-btn:hover {
+    background-color: #1c71d8;
+}
+
+.center-todo-add-btn:active {
+    background-color: #1a5fb4;
+}

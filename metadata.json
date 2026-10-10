@@ -1,0 +1,14 @@
+{
+  "name": "Center To-Do",
+  "description": "A minimal desktop to-do list widget centered on screen",
+  "uuid": "center-todo@mash",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "version": 1
+}

@@ -1,0 +1,12 @@
+# Personal task data
+todo.txt
+
+# Generated extension packages
+*.shell-extension.zip
+
+# Editor and operating system files
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
