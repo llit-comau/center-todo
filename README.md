@@ -2,6 +2,9 @@
 
 A GNOME Shell extension that displays a to-do list in the center of the primary monitor, on the desktop background behind application windows.
 
+<img width="805" height="776" alt="Screenshot From 2026-10-11 09-23-52" src="https://github.com/user-attachments/assets/1815ceeb-cd0e-4c71-9f9c-32614d3c4d1f" />
+
+
 ## Features
 
 - Add a task by typing and pressing Enter, or clicking the plus button.
